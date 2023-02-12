@@ -1,14 +1,14 @@
-Get-ChildItem "1x1" -Filter *.png | Foreach-Object -Parallel {
-  optipng $_.FullName
+echo "Removing old locators..."
+Get-ChildItem "1x*" -Recurse -Filter *.loc | Foreach-Object -Parallel {
+  rm $_.FullName
+}
+
+echo "Optimizing png's..."
+Get-ChildItem "1x*" -Recurse -Filter *.png | Foreach-Object -Parallel {
+  optipng -quiet $_.FullName
+  echo "$_ optimized"
 } -ThrottleLimit 8
 
-Get-ChildItem "1x2" -Filter *.png | Foreach-Object -Parallel {
-  optipng $_.FullName
-} -ThrottleLimit 8
-
-Get-ChildItem "1x4" -Filter *.png | Foreach-Object -Parallel {
-  optipng $_.FullName
-} -ThrottleLimit 8
-
+echo "Generating new locators and index file..."
 php generateLocators.php
 php generateSite.php > index.md
