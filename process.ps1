@@ -11,3 +11,4 @@ Get-ChildItem "1x4" -Filter *.png | Foreach-Object -Parallel {
 } -ThrottleLimit 8
 
 php generateLocators.php
+php generateSite.php > index.md
