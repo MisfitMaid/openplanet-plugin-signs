@@ -8,6 +8,10 @@
 
 ![1x2/bonk.png](1x2/bonk.png)
 
+![1x2/mapinfo.png](1x2/mapinfo.png)
+
+![1x2/trackratings.png](1x2/trackratings.png)
+
 
 
 ## 1x4 (12-3-3)
