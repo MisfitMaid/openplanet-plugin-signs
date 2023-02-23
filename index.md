@@ -18,5 +18,7 @@
 
 ![1x4/DID.png](1x4/DID.png)
 
+![1x4/doubleclicker.png](1x4/doubleclicker.png)
+
 ![1x4/ticker.png](1x4/ticker.png)
 
