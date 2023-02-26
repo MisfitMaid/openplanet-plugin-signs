@@ -10,6 +10,10 @@
 
 ![1x2/mapinfo.png](1x2/mapinfo.png)
 
+![1x2/minimap.png](1x2/minimap.png)
+
+![1x2/show-editor-inputs.png](1x2/show-editor-inputs.png)
+
 ![1x2/trackratings.png](1x2/trackratings.png)
 
 
