@@ -18,7 +18,15 @@
 
 ![1x4/DID.png](1x4/DID.png)
 
+![1x4/_openplanet.png](1x4/_openplanet.png)
+
+![1x4/better-room-manager.png](1x4/better-room-manager.png)
+
+![1x4/buffer-time.png](1x4/buffer-time.png)
+
 ![1x4/doubleclicker.png](1x4/doubleclicker.png)
 
 ![1x4/ticker.png](1x4/ticker.png)
+
+![1x4/ttg.png](1x4/ttg.png)
 
