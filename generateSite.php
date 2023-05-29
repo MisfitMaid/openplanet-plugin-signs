@@ -26,3 +26,8 @@ function signDirTpl(string $dir): string {
 ## 1x4 (12-3-3)
 
 <?php echo signDirTpl("1x4"); ?>
+
+
+## 2x3 (12-3-3)
+
+<?php echo signDirTpl("2x3"); ?>

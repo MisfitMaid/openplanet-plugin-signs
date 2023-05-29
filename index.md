@@ -50,3 +50,9 @@
 
 ![1x4/ttg.png](1x4/ttg.png)
 
+
+
+## 2x3 (12-3-3)
+
+![2x3/openplanet.png](2x3/openplanet.png)
+

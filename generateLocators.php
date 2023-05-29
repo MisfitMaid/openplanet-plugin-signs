@@ -12,3 +12,4 @@ function genLoc(string $dir): void { // shame about season two
 genLoc("1x1");
 genLoc("1x2");
 genLoc("1x4");
+genLoc("2x3");
