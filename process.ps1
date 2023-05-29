@@ -12,4 +12,4 @@ Get-ChildItem "[0-9]x[0-9]" -Recurse -Filter *.png | Foreach-Object -Parallel {
 
 echo "Generating new locators and index file..."
 php generateLocators.php
-php generateSite.php > index.md
+php generateSite.php > index.html
