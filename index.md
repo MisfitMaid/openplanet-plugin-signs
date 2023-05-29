@@ -2,6 +2,14 @@
 
 ## 1x1 (12-3-1)
 
+![1x1/openplanet.png](1x1/openplanet.png)
+
+![1x1/openplanet_5years.png](1x1/openplanet_5years.png)
+
+![1x1/openplanet_heart.png](1x1/openplanet_heart.png)
+
+![1x1/openplanet_plain.png](1x1/openplanet_plain.png)
+
 
 
 ## 1x2 (12-3-2)
@@ -11,6 +19,12 @@
 ![1x2/mapinfo.png](1x2/mapinfo.png)
 
 ![1x2/minimap.png](1x2/minimap.png)
+
+![1x2/openplanet.png](1x2/openplanet.png)
+
+![1x2/openplanet_5years.png](1x2/openplanet_5years.png)
+
+![1x2/openplanet_plain.png](1x2/openplanet_plain.png)
 
 ![1x2/show-editor-inputs.png](1x2/show-editor-inputs.png)
 
@@ -29,6 +43,8 @@
 ![1x4/doubleclicker.png](1x4/doubleclicker.png)
 
 ![1x4/openplanet.png](1x4/openplanet.png)
+
+![1x4/openplanet_5years.png](1x4/openplanet_5years.png)
 
 ![1x4/ticker.png](1x4/ticker.png)
 
