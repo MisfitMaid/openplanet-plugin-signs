@@ -74,32 +74,32 @@ EOL, $ratio, $file, $file);
 		</div>
 	</section>
 	<section class="section">
-		<h3 class="title is-3">1x1 (12-3-1)</h3>
 		<div class="container">
+			<h3 class="title is-3">1x1 (12-3-1)</h3>
 			<div class="columns is-multiline is-centered">
 				<?php echo signDirTpl("1x1", "1x1 (12-3-1)", "1by1"); ?>
 			</div>
 		</div>
 	</section>
 	<section class="section">
-		<h3 class="title is-3">1x2 (12-3-2)</h3>
 		<div class="container">
+			<h3 class="title is-3">1x2 (12-3-2)</h3>
 			<div class="columns is-multiline is-centered">
 				<?php echo signDirTpl("1x2", "1x2 (12-3-2)", "2by1"); ?>
 			</div>
 		</div>
 	</section>
 	<section class="section">
-		<h3 class="title is-3">1x4 (12-3-3)</h3>
 		<div class="container">
+			<h3 class="title is-3">1x4 (12-3-3)</h3>
 			<div class="columns is-multiline is-centered">
 				<?php echo signDirTpl("1x4", "1x4 (12-3-3)", "4by1"); ?>
 			</div>
 		</div>
 	</section>
 	<section class="section">
-		<h3 class="title is-3">2x3 (ItemFlag)</h3>
 		<div class="container">
+			<h3 class="title is-3">2x3 (ItemFlag)</h3>
 			<div class="columns is-multiline is-centered">
 				<?php echo signDirTpl("2x3", "2x3 (ItemFlag)", "3by2"); ?>
 			</div>
