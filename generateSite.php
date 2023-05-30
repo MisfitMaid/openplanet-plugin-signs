@@ -4,6 +4,14 @@ function signDirTpl(string $dir, string $tag, string $ratio): string {
 	$ret = "";
 	foreach(glob($dir . "/*") as $file) {
 		if (str_ends_with($file, ".loc")) continue;
+		if (str_ends_with($file, ".zip.png")) continue;
+		
+		$ft = $file;
+		$isPaintable = "";
+		if (str_ends_with($file, ".zip")) {
+			$ft = $file.".png";
+			$isPaintable = '<span class="tag icon" title="Colorable"><i class="fa fa-paint-brush" aria-hidden="true"></i></span>';
+		}
 		
 		$ret .= sprintf(<<<EOL
 <div class="column is-3">
@@ -14,13 +22,13 @@ function signDirTpl(string $dir, string $tag, string $ratio): string {
 				<div class="tags sign-tags is-overlay">
 					<span class="tag icon copy" data-clipboard-text="https://misfitmaid.github.io/openplanet-plugin-signs/%s" title="Copy to clipboard">
 						<i class="fa fa-files-o" aria-hidden="true"></i>
-					</span>
+					</span>%s
 				</div>
 			</figure>
 		</div>
 	</div>
 </div>\n
-EOL, $ratio, $file, $file);
+EOL, $ratio, $ft, $file, $isPaintable);
 	}
 	return $ret;
 }
